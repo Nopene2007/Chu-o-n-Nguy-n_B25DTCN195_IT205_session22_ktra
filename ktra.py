@@ -47,3 +47,6 @@ if __name__ == "__main__":
     calculate_agency_total(100, 50, "gold")  # Case kiểm tra lỗi logic biên
     calculate_agency_total(100, -5, "silver") # Case kiểm tra lỗi dữ liệu đầu vào
 
+# yeu cau 1:
+#2: Vì level ở hàm basicConfig đang để info nên nó k bắt được debug trong code. Cần sửa thành level debug
+#3: Đáng ra khi so luong lon hon 50 thì nên được giảm thêm 15% nhưng code lại đang khóa cứng tại 5% nên khi mua hàng nta bị mất nhiều tiền hơn thực tế
